@@ -1,2 +1,36 @@
 # CCDP
 CoffeeChain Data Platform
+###
+# Project Goal
+Design and implement an MVP data platform for analytics of a coffee shop chain.
+The platform is built on top of a legacy CRM data model (DoubleB) and provides
+batch data ingestion, transformation, and analytical data modeling.
+# Data Source
+
+
+The database schema is based on a legacy CRM project (DoubleB).
+Data is synthetically generated to simulate real production workloads.
+# MVP-arhitecture
+PostgreSQL (CRM source)
+    → Python ingestion (batch)
+    → Raw layer (Parquet files)
+    → PySpark transformations
+    → Curated layer
+    → Snowflake (data warehouse)
+    → Analytical queries
+# Stack
+- Python
+- SQL
+- PostgreSQL
+- Apache Spark (PySpark)
+- Apache Airflow
+- Snowflake
+# Roadmap
+- [ ] Restore CRM database schema
+- [ ] Generate synthetic production-like data
+- [ ] Implement batch ingestion
+- [ ] Implement Spark transformations
+- [ ] Build analytical data model in Snowflake
+- [ ] Orchestrate pipelines with Airflow
+# Notes 
+https://www.figma.com/board/n87ezcFZB3Af6bsAb578j1/CoffeeChain-Data-Platform?node-id=0-1&t=hKvOCvvG7DiGCaUD-1
