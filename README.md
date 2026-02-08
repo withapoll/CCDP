@@ -26,7 +26,7 @@ PostgreSQL (CRM source)
 - Apache Airflow
 - Snowflake
 # Roadmap
-- [ ✅] Restore CRM database schema
+- [ ] Restore CRM database schema
 - [ ] Generate synthetic production-like data
 - [ ] Implement batch ingestion
 - [ ] Implement Spark transformations
