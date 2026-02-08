@@ -3,7 +3,7 @@ CoffeeChain Data Platform
 ###
 # Project Goal
 Design and implement an MVP data platform for analytics of a coffee shop chain.
-The platform is built on top of a legacy CRM data model (DoubleB) and provides
+The platform is built on top of a legacy CRM data model ([DoubleB](https://github.com/withapoll/DoubleB)) and provides
 batch data ingestion, transformation, and analytical data modeling.
 # Data Source
 
@@ -33,4 +33,4 @@ PostgreSQL (CRM source)
 - [ ] Build analytical data model in Snowflake
 - [ ] Orchestrate pipelines with Airflow
 # Notes 
-https://www.figma.com/board/n87ezcFZB3Af6bsAb578j1/CoffeeChain-Data-Platform?node-id=0-1&t=hKvOCvvG7DiGCaUD-1
+[Figma](https://www.figma.com/board/n87ezcFZB3Af6bsAb578j1/CoffeeChain-Data-Platform?node-id=0-1&t=hKvOCvvG7DiGCaUD-1)
