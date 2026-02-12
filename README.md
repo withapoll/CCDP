@@ -8,7 +8,7 @@ batch data ingestion, transformation, and analytical data modeling.
 # Data Source
 
 
-The database schema is based on a legacy CRM project (DoubleB).
+Database schema is based on my previous CRM application (DoubleB), built with Vue.js and Supabase
 Data is synthetically generated to simulate real production workloads.
 # MVP-arhitecture
 PostgreSQL (CRM source)
