@@ -6,3 +6,4 @@ pyspark
 snowflake-connector-python
 apache-airflow
 faker  # data generation
+#to install pip install -r requirements
