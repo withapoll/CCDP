@@ -1,0 +1,8 @@
+pandas
+sqlalchemy
+psycopg2-binary
+pyarrow
+pyspark
+snowflake-connector-python
+apache-airflow
+faker  # data generation
