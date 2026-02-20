@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+
+env
+*.key
+*.pem
+
+# Data
+*.csv
+*.json
+*.parquet
+!data/raw/
+!data/curated/
